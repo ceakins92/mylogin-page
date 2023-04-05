@@ -1,0 +1,97 @@
+nav{
+    display: block;
+    color: rgb(36, 19, 66);
+}
+
+nav a{
+    color: rgb(85, 184, 214);
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(145, 3, 3);
+
+}
+
+.container{
+    display: table-cell;
+    position: absolute;
+    min-height: 400px;
+    width: 400px;
+    border: 1px solid rgb(32, 31, 110);
+    top: 250px;                         
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
+
+
+.card-img{
+    position: relative;
+    align-content: space-around;
+    margin:0px;
+    padding:0px;
+
+}
+.card-title{
+    padding-left: 30px;
+    padding-bottom: 0px;
+
+}
+
+.card-login{
+    align-content: space-around;
+    padding-top: 0px;
+
+
+}
+
+.card-terms{
+    padding-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+
+}
+
+.card-signup{
+    background-image:url("./images/Horizontal-Line-PNG-Photo2.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: top;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:100;
+
+}
+
+.lower-holder{
+    position:absolute;
+    margin-top: 510px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    
+}
+
+.footer-text{
+    background-image: url("./images/Horizontal-Line-PNG-Photo2.png");
+    background-repeat: no-repeat;
+    width:100%;
+    background-position:center;
+    padding-bottom: 10px;
+    margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    bottom: 10px;                         
+    font-size: small;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    
+}
+
